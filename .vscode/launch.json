@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\jstest.js"
+            "program": "${workspaceFolder}\\jstest.js",
             "stopOnEntry": true
         }
     ]
