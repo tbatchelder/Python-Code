@@ -11,6 +11,14 @@ def mangle(str):
     strMod = strMod[:-3] + strMod[-2:]
     return strMod
 
+# We can set up a test for this by:
+# def main():
+#     test_input = ["hellothere", "42 degrees Celsius", "eeeeeee"]
+#     test_output = ["HELOTHRE", "42DEGREES CELSUS", "EEEEE"]
+#     for i in range(len(test_input)):
+#         print("Mangle: ", test_input[i], mangle(test_input[i]) == test_output[i])
+# therefore, if the mangle test outputs the same as test_output, it will return True so we know we passed
+
 print(mangle("hellothere"))
 print(mangle("42 degrees Celsius"))
 print(mangle("eeeeeee"))
