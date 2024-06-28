@@ -10,8 +10,8 @@ def average_neg_evens(list):
         if (item < 0) and (item % 2 == 0):
             sumList.append(item)
         i += 1
-    print(sum(sumList) /  len(sumList))
-    return sum(sumList) /  len(sumList)
+    print(sum(sumList) / len(sumList))
+    return sum(sumList) / len(sumList)
 
 def count_letter(list):
     count = 0
