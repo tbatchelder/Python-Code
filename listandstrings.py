@@ -42,5 +42,11 @@ def count_vowels(str):
             if test[x] in vowels:
                 count += 1
     return count
+# Can simplify this down to 
+# for i in range("AEIOU"):
+#     num_vowels = str.upper.count(i)
 
 print(count_vowels(["hi", "hello", "OOF!"]))
+
+v = ("hello","goodbye","cat","dog","DONE")
+print(sorted(v))
